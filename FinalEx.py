@@ -9,6 +9,8 @@ class Rec:
         self.r = r 
         self.g = g
         self.b = b
+
+        
     def draw(self,screen):
         pg.draw.rect(screen,(self.r,self.g,self.b),(self.x,self.y,self.w,self.h))
 class Button(Rec):
