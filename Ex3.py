@@ -2,6 +2,7 @@
 import sys
 import pygame as pg
 
+
 class InputBox:
 
     def __init__(self, x, y, w, h, text=''):

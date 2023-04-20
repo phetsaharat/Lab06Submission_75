@@ -1,5 +1,6 @@
 import sys 
 import pygame as pg
+
 class Rec:
     def __init__(self,x=0,y=0,w=0,h=0,r=0,g=0,b=0):
         self.x = x # Position X
